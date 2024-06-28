@@ -50,7 +50,7 @@ function App() {
       {loading && <p>Loading data…</p>}
       <div className="container">
         {Object.keys(weather).map((ele) => (
-          <div key={ele} className="weather-cards">
+          <div key={ele} className="weather-card">
             <h4>{ele}</h4>
             <p>{weather[ele]}</p>
           </div>

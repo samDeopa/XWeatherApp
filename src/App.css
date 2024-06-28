@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-around;
 }
-.weather-cards {
+.weather-card {
   height: 50px;
   width: 100px;
   box-shadow: 1px;
