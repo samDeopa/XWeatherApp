@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.weather-cards {
+  height: 50px;
+  width: 100px;
+  box-shadow: 1px;
+}
