@@ -47,8 +47,8 @@ function App() {
         <input placeholder="Enter city name" type="text" />
         <button>Search</button>
       </form>
-      {loading && <p>Loading data…</p>}
-      <div className="container">
+      {loading && <p>Loading data...</p>}
+      <div className="weather-cards">
         {Object.keys(weather).map((ele) => (
           <div key={ele} className="weather-card">
             <h4>{ele}</h4>
